@@ -56,12 +56,14 @@ llm-tool-use-ft/
 
 2. **Clone the repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/ShawhinT/llm-tool-use-ft.git
    cd llm-tool-use-ft
    ```
 
 3. **Create and activate the environment**:
    ```bash
+   uv venv
+   source .venv/bin/activate
    uv sync
    ```
 
